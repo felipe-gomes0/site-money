@@ -8,12 +8,16 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "dev:server": "json-server server.json"
+    "dev:server": "json-server --watch server.json"
   },
   "dependencies": {
+    "@hookform/resolvers": "^4.1.2",
+    "axios": "^1.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "styled-components": "^6.1.15"
+    "react-hook-form": "^7.54.2",
+    "styled-components": "^6.1.15",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
