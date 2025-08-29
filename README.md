@@ -29,7 +29,7 @@
 git clone https://github.com/felipe-gomes0/site-money.git
 
 # Navegue até o diretório do projeto
-cd [nome-do-diretorio]
+cd site-money
 
 # Instale as dependências
 npm install
