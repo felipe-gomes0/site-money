@@ -28,8 +28,15 @@ export function SearchForm() {
 
     return (
         <div>
-            <SearchFormContainer onSubmit={handleSubmit(handleSearchTransactions)} >
-                <input type="text" placeholder="Busque por transações" {...register('query')}/>
+			<SearchFormContainer
+				onChange={handleSubmit(handleSearchTransactions)}
+				onSubmit={handleSubmit(handleSearchTransactions)}
+			>
+				<input
+					type="text"
+					placeholder="Busque por transações"
+					{...register("query")}
+				/>
 
                 <button type="submit" disabled={isSubmitting}><MagnifyingGlass />Buscar</button>
             </SearchFormContainer>
