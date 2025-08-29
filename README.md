@@ -1,6 +1,6 @@
 ## Money Project
 
-Este projeto é uma aplicação front-end voltada para o controle financeiro pessoal, oferecendo uma interface simples e intuitiva para registrar, visualizar e analisar movimentações de capital.
+- Este projeto é uma aplicação front-end voltada para o controle financeiro pessoal, oferecendo uma interface simples e intuitiva para registrar, visualizar e analisar movimentações de capital.
 ---
 
 ## 🚀 Tecnologias Utilizadas
