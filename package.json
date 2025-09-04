@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://felipe-gomes0.github.io/site-money/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "dev:server": "json-server --watch server.json"
+    "dev:server": "json-server --watch server.json",
+    "deploy": "gph-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^4.1.2",
